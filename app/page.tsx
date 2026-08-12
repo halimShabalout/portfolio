@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Navbar />
 
-      <main id="main-content">
+      <main id="main-content" aria-label="Halim Shabalout Portfolio">
         <Hero />
         <About />
         <TechStack />
