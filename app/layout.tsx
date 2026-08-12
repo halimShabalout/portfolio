@@ -16,6 +16,10 @@ export const metadata: Metadata = {
 
   description:
     "Full-Stack Software Engineer specializing in TypeScript, Next.js, NestJS, React, Node.js, and AI-powered web applications. Experienced in building scalable software, RESTful APIs, and modern user experiences. Based in Jeddah, Saudi Arabia and open to full-time opportunities.",
+  
+  verification: {
+    google: "hte6DbkMp91aeOs7NKcUlIOVzHxuQnjjmS09REmFXWo",
+  },
 
   keywords: [
     "Halim Shabalout",
