@@ -1,6 +1,19 @@
 import type { Metadata, Viewport } from "next";
-import "./globals.css";
+import "../globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import { hasLocale } from "next-intl";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages, setRequestLocale } from "next-intl/server";
+import { notFound } from "next/navigation";
+import { routing } from "@/i18n/routing";
+import localFont from "next/font/local";
+
+const cairo = localFont({
+  src: "../../public/fonts/Cairo-VariableFont_slnt,wght.ttf",
+  display: "swap",
+  variable: "--font-cairo",
+  weight: "100 1000",
+});
 
 const siteUrl = "https://halim-portfolio.vercel.app";
 const siteName = "Halim Shabalout Portfolio";
@@ -16,7 +29,7 @@ export const metadata: Metadata = {
 
   description:
     "Full-Stack Software Engineer specializing in TypeScript, Next.js, NestJS, React, Node.js, and AI-powered web applications. Experienced in building scalable software, RESTful APIs, and modern user experiences. Based in Jeddah, Saudi Arabia and open to full-time opportunities.",
-  
+
   verification: {
     google: "hte6DbkMp91aeOs7NKcUlIOVzHxuQnjjmS09REmFXWo",
   },
@@ -172,14 +185,28 @@ const personJsonLd = {
     addressCountry: "SA",
   },
 };
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{ locale: string }>;
 }>) {
+  const { locale } = await params;
+
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+
+  setRequestLocale(locale);
+
+  const messages = await getMessages();
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"} data-scroll-behavior="smooth" suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
 
@@ -194,23 +221,26 @@ export default function RootLayout({
           rel="stylesheet"
         />
 
+      </head>
+
+      <body className={`${cairo.className} antialiased`} suppressHydrationWarning>
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(personJsonLd),
           }}
         />
-      </head>
-
-      <body className="antialiased" suppressHydrationWarning>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
+        <NextIntlClientProvider messages={messages}>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="dark"
+            enableSystem
+            disableTransitionOnChange
+          >
+            {children}
+          </ThemeProvider>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

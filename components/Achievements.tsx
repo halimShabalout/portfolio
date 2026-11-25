@@ -1,11 +1,19 @@
+
 "use client";
 
 import { Trophy } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { achievements } from "@/lib/data";
 import { Reveal, RevealGroup, revealItem } from "@/components/Reveal";
 import { motion } from "framer-motion";
 
 export default function Achievements() {
+  const t = useTranslations("Achievements");
+
+  const getTranslation = (key: string, fallback: string): string => {
+    return t.has(key) ? t(key) : fallback;
+  };
+
   return (
     <section
       id="achievements"
@@ -21,14 +29,14 @@ export default function Achievements() {
           id="achievements-title"
           className="text-2xl font-semibold text-foreground sm:text-3xl"
         >
-          Achievements
+          {getTranslation("title", "Achievements")}
         </h2>
 
         <span aria-hidden="true" className="h-px flex-1 bg-border" />
       </Reveal>
 
       <RevealGroup className="grid gap-4 sm:grid-cols-2" stagger={0.08}>
-        {achievements.map((achievement) => (
+        {achievements.map((achievement, index) => (
           <motion.article
             key={achievement.text}
             variants={revealItem}
@@ -42,7 +50,10 @@ export default function Achievements() {
             </span>
 
             <p className="text-[14.5px] leading-relaxed text-muted-foreground">
-              {achievement.text}
+              {getTranslation(
+                `items.item${index + 1}`,
+                achievement.text
+              )}
             </p>
           </motion.article>
         ))}

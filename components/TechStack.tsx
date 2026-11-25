@@ -1,12 +1,20 @@
+
 "use client";
 
 import { motion } from "framer-motion";
-import { skills } from "@/lib/data";
+import { useTranslations } from "next-intl";
 import { Reveal, RevealGroup, revealItem } from "@/components/Reveal";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { skills } from "@/lib/data";
 
 export default function TechStack() {
+  const t = useTranslations("TechStack");
+
+  const getTranslation = (key: string, fallback: string): string => {
+    return t.has(key) ? t(key) : fallback;
+  };
+
   return (
     <section
       id="stack"
@@ -23,7 +31,7 @@ export default function TechStack() {
             id="tech-stack-title"
             className="text-2xl font-semibold text-foreground sm:text-3xl"
           >
-            Tech Stack
+            {getTranslation("title", "Tech Stack")}
           </h2>
 
           <span aria-hidden="true" className="h-px flex-1 bg-border" />
@@ -37,7 +45,10 @@ export default function TechStack() {
             <motion.div key={skillGroup.category} variants={revealItem}>
               <Card className="h-full p-5 transition-colors hover:border-accent/50">
                 <h3 className="mb-4 text-sm font-semibold uppercase tracking-wide text-accent-pale">
-                  {skillGroup.category}
+                  {getTranslation(
+                    `categories.${skillGroup.category}`,
+                    skillGroup.category
+                  )}
                 </h3>
 
                 <div className="flex flex-wrap gap-2">
