@@ -1,0 +1,1257 @@
+{
+  "en": {
+    "Navbar": {
+      "about": "About",
+      "stack": "Tech Stack",
+      "experience": "Experience",
+      "projects": "Projects",
+      "achievements": "Achievements",
+      "contact": "Contact",
+      "resume": "Resume",
+      "toggleMenu": "Open menu",
+      "brandName": "Halim Shabalout"
+    },
+    "Hero": {
+      "name": "Halim Shabalout",
+      "title": "Software Engineer",
+      "subtitle": "Full-Stack Developer",
+      "status": "Open to Opportunities",
+      "yearsOfExperience": "4+ Years",
+      "location": "Jeddah, Saudi Arabia",
+      "heroBio": "Software Engineer focused on designing and developing web applications and integrated systems, turning business needs into practical, scalable software solutions. I care about building reliable products that combine engineering quality with ease of use, while leveraging AI technologies to create more efficient and effective solutions.",
+      "letsTalk": "Let's Talk",
+      "downloadCV": "Download CV",
+      "downloadLabel": "Download Halim Shabalout's CV",
+      "githubLabel": "Visit my GitHub profile",
+      "linkedinLabel": "Visit my LinkedIn profile",
+      "emailLabel": "Send me an email",
+      "scrollLabel": "Scroll to the About section"
+    },
+    "About": {
+      "title": "About Me",
+      "summary": "Full-Stack Software Engineer with over 4 years of experience building and developing web solutions using TypeScript, Next.js, React, Node.js, and NestJS. Experienced in developing RESTful APIs, designing backend systems, and building modern applications that are scalable and maintainable. Interested in integrating AI technologies into web applications and developing practical solutions that meet business needs.",
+      "description": "I believe good software is about more than writing code that works; it requires building reliable, maintainable solutions that deliver real value to users and businesses. I enjoy working across different areas of software development, from backend system design and API engineering to building modern user interfaces. I continuously work to improve my skills and explore modern technologies, particularly in artificial intelligence.",
+      "education": {
+        "title": "Education",
+        "school": "Fırat University — Elazığ, Türkiye",
+        "degree": "Bachelor's Degree in Software Engineering",
+        "dates": "2018 – 2022"
+      },
+      "languages": {
+        "title": "Languages",
+        "items": [
+          {
+            "name": "Arabic",
+            "level": "Native"
+          },
+          {
+            "name": "Turkish",
+            "level": "Advanced"
+          },
+          {
+            "name": "English",
+            "level": "Intermediate"
+          },
+          {
+            "name": "German",
+            "level": "Beginner"
+          },
+          {
+            "name": "Spanish",
+            "level": "Beginner"
+          }
+        ]
+      }
+    },
+    "TechStack": {
+      "title": "Technologies & Tools",
+      "categories": {
+        "Frontend": "Frontend Development",
+        "Backend": "Backend Development",
+        "Database & ORM": "Databases & ORMs",
+        "DevOps & Cloud": "DevOps & Cloud",
+        "Practices": "Engineering Practices & Standards",
+        "Other": "Other Technologies & Tools"
+      }
+    },
+    "Experience": {
+      "title": "Professional Experience",
+      "projectsTitle": "Related Projects",
+      "projectTypes": {
+        "product": "Commercial Product",
+        "personal": "Personal Project",
+        "private": "Private Project"
+      },
+      "jobs": {
+        "freelance": {
+          "role": "Freelance Software Developer & Independent Projects",
+          "company": "Freelance",
+          "website": null,
+          "location": "Jeddah, Saudi Arabia",
+          "dates": "September 2024 – Present",
+          "projects": [],
+          "points": [
+            "Designed and developed full-stack web applications, from requirements analysis and technical architecture design to development, testing, and deployment.",
+            "Used AI tools, large language models (LLMs), and prompt engineering to improve software development workflows, accelerate feature development, and assist with debugging and technical research.",
+            "Developed Imaginov, an independent AI-powered SaaS project, using NestJS for the backend and Next.js for the frontend."
+          ]
+        },
+        "aarti": {
+          "role": "Software Engineer",
+          "company": "Aarti Muhendislik",
+          "website": "https://aartimuhendislik.com/index-en.html",
+          "location": "Mersin, Türkiye",
+          "dates": "October 2023 – September 2024",
+          "projects": [
+            {
+              "name": "Intel 50001",
+              "description": "An energy management software system based on the ISO 50001 standard, enabling organizations to monitor energy consumption, analyze data, and identify opportunities to improve efficiency and reduce costs.",
+              "url": null,
+              "type": "private"
+            }
+          ],
+          "points": [
+            "Developed an energy management system for Esan, a subsidiary of the Eczacıbaşı Group, by building RESTful APIs with Laravel and interactive dashboards using React.js and Redux.",
+            "Configured the development environment with Docker, helping reduce environment setup issues and accelerate the onboarding of new developers.",
+            "Designed and implemented new features that improved monitoring system performance and the reliability of industrial energy data."
+          ]
+        },
+        "paracim": {
+          "role": "Software Project Manager",
+          "company": "Paracim",
+          "website": "https://paracim.com.tr/",
+          "location": "Konya, Türkiye",
+          "dates": "May 2023 – September 2023",
+          "projects": [
+            {
+              "name": "Tahsilate",
+              "description": "An electronic payment collection platform providing online payment solutions, including Virtual POS.",
+              "url": "https://tahsilate.com/",
+              "type": "product"
+            }
+          ],
+          "points": [
+            "Led the software development effort and contributed to rebuilding the Virtual POS platform from the ground up using Laravel and Vue.js, through to the launch of the new version.",
+            "Organized and distributed development tasks among team members and monitored their execution, while coordinating technical requirements and project development milestones.",
+            "Contributed to developing APIs and integrating them with payment services, as well as testing the system and resolving issues to ensure stability."
+          ]
+        },
+        "logicalDefense": {
+          "role": "Full-Stack Developer",
+          "company": "Logical Defense",
+          "website": "https://www.logdef.com/",
+          "location": "Elazığ, Türkiye",
+          "dates": "April 2022 – April 2023",
+          "projects": [],
+          "points": [
+            "Designed and developed a comprehensive e-learning platform for managing lessons, exams, and assignments, using Laravel 8 for the backend and Angular 14 for the frontend.",
+            "Designed and documented RESTful APIs to support real-time content delivery and track user progress.",
+            "Delivered website projects for clients using WordPress, developing custom themes and integrating the required plugins."
+          ]
+        }
+      }
+    },
+    "Projects": {
+      "title": "Featured Projects",
+      "viewProject": "View {name} project",
+      "statuses": {
+        "live": "Live",
+        "activeDevelopment": "In Development",
+        "private": "Private"
+      },
+      "items": {
+        "jeddahMarble": {
+          "name": "Jeddah Marble",
+          "href": "https://jeddahmarble.com/",
+          "description": "A comprehensive digital platform for a marble supply company, built with Next.js, NestJS, PostgreSQL, and Prisma. It includes a custom content and product management system, responsive interfaces, and communication integrations that make it easier to receive customer inquiries.",
+          "tags": [
+            "Next.js",
+            "NestJS",
+            "PostgreSQL",
+            "Prisma"
+          ]
+        },
+        "etimadPoint": {
+          "name": "Etimad Point",
+          "href": "https://etimadpoint.cloud/ar",
+          "description": "An integrated business platform designed and developed with Next.js, NestJS, and MySQL, featuring responsive user interfaces, RESTful APIs, and a scalable backend architecture to support digital content and business workflows.",
+          "tags": [
+            "Next.js",
+            "NestJS",
+            "MySQL",
+            "REST API",
+            "Arabic / English"
+          ]
+        },
+        "makkahOrthodontist": {
+          "name": "Makkah Orthodontist",
+          "href": "https://makkahorthodontist.com/ar",
+          "description": "A website for a specialized orthodontic center, developed with Next.js and support for Arabic and English. It includes service and doctor information pages, visual content, and SEO and performance optimizations to help patients access information and services.",
+          "tags": [
+            "Next.js",
+            "Responsive Design",
+            "SEO",
+            "Arabic / English"
+          ]
+        },
+        "bonianAlfakhamah": {
+          "name": "Bonian Al Fakh amah",
+          "href": "https://bonianalfakhamah.com/",
+          "description": "A complete website for a company operating in the construction and real estate sectors, including website design and development and content management system integration.",
+          "tags": [
+            "WordPress",
+            "Full-Stack"
+          ]
+        },
+        "pixelForge": {
+          "name": "PixelForge",
+          "href": "https://pixelforge-eta-gray.vercel.app/",
+          "description": "An open-source image editor that runs directly in the browser, built with Next.js. It focuses on efficient client-side image processing using the HTML Canvas API, with ongoing improvements to editing capabilities and user experience.",
+          "tags": [
+            "Next.js",
+            "Canvas API",
+            "Open Source"
+          ]
+        },
+        "imaginov": {
+          "name": "Imaginov",
+          "description": "An AI-powered SaaS platform being independently designed and developed with Next.js and NestJS. It focuses on integrating AI technologies, building a scalable software architecture, and developing modern productivity tools for developers. The project is private and remains under development.",
+          "tags": [
+            "Next.js",
+            "NestJS",
+            "AI Integration"
+          ]
+        }
+      }
+    },
+    "Achievements": {
+      "title": "Achievements",
+      "items": {
+        "item1": "Contributed to the development and launch of web applications in the education, energy management, and payment systems sectors.",
+        "item2": "Developed full-stack web applications using Next.js, NestJS, React, and Laravel.",
+        "item3": "Delivered digital projects and collaborated with clients and companies in Saudi Arabia and Türkiye.",
+        "item4": "Participated in various stages of software development, from requirements analysis and solution design to development, testing, and deployment.",
+        "item5": "Explored and applied AI technologies and integrated large language models (LLMs) into web applications."
+      }
+    },
+    "Contact": {
+      "label": "Get in Touch",
+      "title": "Let's Build Something",
+      "highlight": "Great Together",
+      "description": "Open to software engineering opportunities and freelance collaboration on digital projects. If you're looking for a software engineer to join your team or want to bring your project to life, I'd be happy to hear from you.",
+      "emailLabel": "Send an email to {email}",
+      "githubLabel": "Visit Halim Shabalout's GitHub profile",
+      "linkedinLabel": "Visit Halim Shabalout's LinkedIn profile",
+      "location": "Jeddah, Saudi Arabia"
+    },
+    "Footer": {
+      "name": "Halim Shabalout",
+      "copyright": "All rights reserved.",
+      "builtWith": "Built with Next.js and Tailwind CSS"
+    }
+  },
+  "ar": {
+    "Navbar": {
+      "about": "نبذة عني",
+      "stack": "التقنيات",
+      "experience": "الخبرات",
+      "projects": "المشاريع",
+      "achievements": "الإنجازات",
+      "contact": "تواصل معي",
+      "resume": "السيرة الذاتية",
+      "toggleMenu": "فتح القائمة",
+      "brandName": "عبدالحليم شبلوط"
+    },
+    "Hero": {
+      "name": "عبدالحليم شبلوط",
+      "title": "مهندس برمجيات",
+      "subtitle": "Full-Stack Developer",
+      "status": "متاح للفرص المهنية",
+      "yearsOfExperience": "٤+ سنوات",
+      "location": "جدة، المملكة العربية السعودية",
+      "heroBio": "مهندس برمجيات أعمل على تصميم وتطوير تطبيقات الويب والأنظمة المتكاملة، وتحويل احتياجات الأعمال إلى حلول برمجية عملية وقابلة للتوسع. أهتم ببناء منتجات موثوقة تجمع بين جودة الهندسة وسهولة الاستخدام، مع توظيف تقنيات الذكاء الاصطناعي لتطوير حلول أكثر كفاءة وفاعلية.",
+      "letsTalk": "لنتحدث",
+      "downloadCV": "تحميل السيرة الذاتية",
+      "downloadLabel": "تحميل السيرة الذاتية لعبدالحليم شبلوط",
+      "githubLabel": "زيارة حسابي على GitHub",
+      "linkedinLabel": "زيارة حسابي على LinkedIn",
+      "emailLabel": "مراسلتي عبر البريد الإلكتروني",
+      "scrollLabel": "الانتقال إلى قسم نبذة عني"
+    },
+    "About": {
+      "title": "نبذة عني",
+      "summary": "مهندس برمجيات متخصص في تطوير تطبيقات الويب المتكاملة (Full-Stack)، بخبرة تزيد عن 4 سنوات في بناء وتطوير حلول ويب باستخدام TypeScript وNext.js وReact وNode.js وNestJS. أمتلك خبرة في تطوير واجهات RESTful APIs، وتصميم الأنظمة الخلفية، وبناء تطبيقات حديثة قابلة للتوسع والصيانة. أهتم بدمج تقنيات الذكاء الاصطناعي في تطبيقات الويب وتطوير حلول عملية تلبي احتياجات الأعمال.",
+      "description": "أؤمن بأن البرمجيات الجيدة لا تقتصر على كتابة شيفرات تعمل فحسب، بل تتطلب بناء حلول موثوقة وقابلة للصيانة وتقدم قيمة حقيقية للمستخدمين والأعمال. أستمتع بالعمل على مختلف جوانب تطوير البرمجيات، من تصميم الأنظمة الخلفية وهندسة واجهات API إلى بناء واجهات مستخدم حديثة، وأسعى باستمرار إلى تطوير مهاراتي واستكشاف التقنيات الحديثة، خصوصاً في مجال الذكاء الاصطناعي.",
+      "education": {
+        "title": "التعليم",
+        "school": "جامعة فرات — إلازيغ، تركيا",
+        "degree": "بكالوريوس في هندسة البرمجيات",
+        "dates": "2018 – 2022"
+      },
+      "languages": {
+        "title": "اللغات",
+        "items": [
+          {
+            "name": "العربية",
+            "level": "اللغة الأم"
+          },
+          {
+            "name": "التركية",
+            "level": "متقدم"
+          },
+          {
+            "name": "الإنجليزية",
+            "level": "متوسط"
+          },
+          {
+            "name": "الألمانية",
+            "level": "مبتدئ"
+          },
+          {
+            "name": "الإسبانية",
+            "level": "مبتدئ"
+          }
+        ]
+      }
+    },
+    "TechStack": {
+      "title": "التقنيات والأدوات",
+      "categories": {
+        "Frontend": "تطوير الواجهات الأمامية",
+        "Backend": "تطوير الواجهات الخلفية",
+        "Database & ORM": "قواعد البيانات وأدوات ORM",
+        "DevOps & Cloud": "البنية التحتية والخدمات السحابية",
+        "Practices": "الممارسات والمعايير البرمجية",
+        "Other": "تقنيات وأدوات أخرى"
+      }
+    },
+    "Experience": {
+      "title": "الخبرات المهنية",
+      "projectsTitle": "المشاريع المرتبطة",
+      "projectTypes": {
+        "product": "منتج تجاري",
+        "personal": "مشروع شخصي",
+        "private": "مشروع خاص"
+      },
+      "jobs": {
+        "freelance": {
+          "role": "مطور برمجيات مستقل ومشاريع خاصة",
+          "company": "عمل حر",
+          "website": null,
+          "location": "جدة، المملكة العربية السعودية",
+          "dates": "سبتمبر 2024 – حتى الآن",
+          "projects": [],
+          "points": [
+            "تصميم وتطوير تطبيقات ويب متكاملة، بدءاً من تحليل المتطلبات وتصميم البنية التقنية وصولاً إلى التطوير والاختبار والنشر.",
+            "استخدام أدوات الذكاء الاصطناعي ونماذج اللغة الكبيرة (LLMs) وهندسة الأوامر لتحسين سير العمل البرمجي، وتسريع تطوير الميزات، والمساعدة في تحليل الأخطاء والبحث التقني.",
+            "تطوير Imaginov، وهو مشروع SaaS شخصي مدعوم بالذكاء الاصطناعي، باستخدام NestJS لتطوير الواجهة الخلفية وNext.js لبناء الواجهة الأمامية."
+          ]
+        },
+        "aarti": {
+          "role": "مهندس برمجيات",
+          "company": "Aarti Muhendislik",
+          "website": "https://aartimuhendislik.com/index-en.html",
+          "location": "مرسين، تركيا",
+          "dates": "أكتوبر 2023 – سبتمبر 2024",
+          "projects": [
+            {
+              "name": "Intel 50001",
+              "description": "نظام برمجي لإدارة الطاقة وفق معيار ISO 50001، يتيح للمؤسسات مراقبة استهلاك الطاقة وتحليل البيانات وتحديد فرص تحسين الكفاءة وتقليل التكاليف.",
+              "url": null,
+              "type": "private"
+            }
+          ],
+          "points": [
+            "تطوير نظام لإدارة الطاقة لصالح شركة Esan التابعة لمجموعة Eczacibasi، من خلال بناء واجهات RESTful API باستخدام Laravel ولوحات تحكم تفاعلية باستخدام React.js وRedux.",
+            "تهيئة بيئة التطوير باستخدام Docker، مما ساهم في تقليل المشكلات المرتبطة بإعداد البيئات وتسريع انضمام المطورين الجدد إلى المشروع.",
+            "تصميم وتنفيذ ميزات جديدة حسّنت أداء أنظمة المراقبة وموثوقية بيانات الطاقة الصناعية."
+          ]
+        },
+        "paracim": {
+          "role": "مدير مشروع برمجي",
+          "company": "Paracim",
+          "website": "https://paracim.com.tr/",
+          "location": "قونية، تركيا",
+          "dates": "مايو 2023 – سبتمبر 2023",
+          "projects": [
+            {
+              "name": "Tahsilate",
+              "description": "منصة لتحصيل المدفوعات الإلكترونية وتقديم حلول الدفع عبر الإنترنت، بما في ذلك Virtual POS.",
+              "url": "https://tahsilate.com/",
+              "type": "product"
+            }
+          ],
+          "points": [
+            "تولّي مسؤولية قيادة الجانب البرمجي للمشروع، والمساهمة في إعادة بناء منصة Virtual POS من الصفر باستخدام Laravel وVue.js، وصولاً إلى إطلاق النسخة الجديدة.",
+            "تنظيم وتوزيع المهام البرمجية بين أعضاء الفريق ومتابعة تنفيذها، مع التنسيق بشأن المتطلبات الفنية ومراحل تطوير المشروع.",
+            "المشاركة في تطوير واجهات API وربطها بخدمات الدفع، والمساهمة في اختبار النظام ومعالجة المشكلات لضمان استقراره."
+          ]
+        },
+        "logicalDefense": {
+          "role": "مطور Full-Stack",
+          "company": "Logical Defense",
+          "website": "https://www.logdef.com/",
+          "location": "إلازيغ، تركيا",
+          "dates": "أبريل 2022 – أبريل 2023",
+          "projects": [],
+          "points": [
+            "تصميم وتطوير منصة تعليمية إلكترونية متكاملة لإدارة الدروس والاختبارات والواجبات، باستخدام Laravel 8 للواجهة الخلفية وAngular 14 للواجهة الأمامية.",
+            "تصميم وتوثيق RESTful APIs لدعم تقديم المحتوى بشكل فوري ومتابعة تقدم المستخدمين.",
+            "تنفيذ مشاريع مواقع للعملاء باستخدام WordPress، مع تطوير قوالب مخصصة ودمج الإضافات اللازمة."
+          ]
+        }
+      }
+    },
+    "Projects": {
+      "title": "أبرز المشاريع",
+      "viewProject": "عرض مشروع {name}",
+      "statuses": {
+        "live": "متاح",
+        "activeDevelopment": "قيد التطوير",
+        "private": "خاص"
+      },
+      "items": {
+        "jeddahMarble": {
+          "name": "رخام جدة",
+          "href": "https://jeddahmarble.com/",
+          "description": "منصة رقمية متكاملة لشركة متخصصة في توريد الرخام، تم تطويرها باستخدام Next.js وNestJS وPostgreSQL وPrisma. تتضمن نظاماً مخصصاً لإدارة المحتوى والمنتجات، وواجهات متجاوبة، وتكاملاً مع خدمات التواصل لتسهيل استقبال استفسارات العملاء.",
+          "tags": [
+            "Next.js",
+            "NestJS",
+            "PostgreSQL",
+            "Prisma"
+          ]
+        },
+        "etimadPoint": {
+          "name": "نقطة اعتماد",
+          "href": "https://etimadpoint.cloud/ar",
+          "description": "منصة أعمال متكاملة تم تصميمها وتطويرها باستخدام Next.js وNestJS وMySQL، مع واجهات مستخدم متجاوبة وواجهات برمجية RESTful وبنية خلفية قابلة للتوسع لدعم المحتوى الرقمي وسير العمليات التجارية.",
+          "tags": [
+            "Next.js",
+            "NestJS",
+            "MySQL",
+            "REST API",
+            "عربي / إنجليزي"
+          ]
+        },
+        "makkahOrthodontist": {
+          "name": "تقويم أسنان مكة",
+          "href": "https://makkahorthodontist.com/ar",
+          "description": "موقع إلكتروني لمركز متخصص في تقويم الأسنان، تم تطويره باستخدام Next.js مع دعم العربية والإنجليزية. يشمل صفحات تعريفية بالخدمات والأطباء، وعرض المحتوى المرئي، وتحسين محركات البحث (SEO) والأداء لتسهيل وصول المرضى إلى المعلومات والخدمات.",
+          "tags": [
+            "Next.js",
+            "تصميم متجاوب",
+            "SEO",
+            "عربي / إنجليزي"
+          ]
+        },
+        "bonianAlfakhamah": {
+          "name": "بنيان الفخامة",
+          "href": "https://bonianalfakhamah.com/",
+          "description": "موقع إلكتروني متكامل لشركة تعمل في قطاع الإنشاءات والعقارات، شمل تصميم الموقع وتطويره ودمج نظام إدارة المحتوى.",
+          "tags": [
+            "WordPress",
+            "Full-Stack"
+          ]
+        },
+        "pixelForge": {
+          "name": "PixelForge",
+          "href": "https://pixelforge-eta-gray.vercel.app/",
+          "description": "محرر صور مفتوح المصدر يعمل مباشرة عبر المتصفح، تم تطويره باستخدام Next.js. يركز على معالجة الصور بكفاءة عالية من جهة العميل باستخدام HTML Canvas API، مع استمرار تطوير إمكانيات التحرير وتحسين تجربة المستخدم.",
+          "tags": [
+            "Next.js",
+            "Canvas API",
+            "مفتوح المصدر"
+          ]
+        },
+        "imaginov": {
+          "name": "Imaginov",
+          "description": "منصة SaaS تعتمد على الذكاء الاصطناعي، يجري تصميمها وتطويرها بشكل مستقل باستخدام Next.js وNestJS. تركز على دمج تقنيات الذكاء الاصطناعي والبنية البرمجية القابلة للتوسع وتطوير أدوات عمل حديثة للمطورين. المشروع خاص ولا يزال قيد التطوير.",
+          "tags": [
+            "Next.js",
+            "NestJS",
+            "تكامل الذكاء الاصطناعي"
+          ]
+        }
+      }
+    },
+    "Achievements": {
+      "title": "الإنجازات",
+      "items": {
+        "item1": "المساهمة في تطوير وإطلاق تطبيقات ويب في مجالات التعليم وإدارة الطاقة وأنظمة الدفع.",
+        "item2": "تطوير تطبيقات ويب متكاملة تشمل الواجهات الأمامية والخلفية باستخدام Next.js وNestJS وReact وLaravel.",
+        "item3": "تنفيذ مشاريع رقمية والتعاون مع عملاء وشركات في المملكة العربية السعودية وتركيا.",
+        "item4": "المشاركة في مختلف مراحل تطوير البرمجيات، من تحليل المتطلبات وتصميم الحلول إلى التطوير والاختبار والنشر.",
+        "item5": "استكشاف وتطبيق تقنيات الذكاء الاصطناعي ودمج نماذج اللغة الكبيرة (LLMs) في تطبيقات الويب."
+      }
+    },
+    "Contact": {
+      "label": "تواصل معي",
+      "title": "لنبنِ شيئاً",
+      "highlight": "رائعاً معاً",
+      "description": "منفتح على فرص العمل في مجال هندسة البرمجيات، والتعاون المستقل على المشاريع الرقمية. إذا كنت تبحث عن مهندس برمجيات للانضمام إلى فريقك أو ترغب في تطوير مشروعك، يسعدني التواصل معك.",
+      "emailLabel": "إرسال بريد إلكتروني إلى {email}",
+      "githubLabel": "زيارة حساب حليم شبلوط على GitHub",
+      "linkedinLabel": "زيارة حساب حليم شبلوط على LinkedIn",
+      "location": "جدة، المملكة العربية السعودية"
+    },
+    "Footer": {
+      "name": "حليم شبلوط",
+      "copyright": "جميع الحقوق محفوظة.",
+      "builtWith": "صُنع باستخدام Next.js وTailwind CSS"
+    }
+  },
+  "tr": {
+    "Navbar": {
+      "about": "Hakkımda",
+      "stack": "Teknolojiler",
+      "experience": "Deneyim",
+      "projects": "Projeler",
+      "achievements": "Başarılar",
+      "contact": "İletişim",
+      "resume": "Özgeçmiş",
+      "toggleMenu": "Menüyü aç",
+      "brandName": "Halim Shabalout"
+    },
+    "Hero": {
+      "name": "Halim Shabalout",
+      "title": "Yazılım Mühendisi",
+      "subtitle": "Full-Stack Developer",
+      "status": "İş fırsatlarına açık",
+      "yearsOfExperience": "4+ Yıl",
+      "location": "Cidde, Suudi Arabistan",
+      "heroBio": "Web uygulamaları ve entegre sistemler tasarlayıp geliştiren, iş ihtiyaçlarını pratik ve ölçeklenebilir yazılım çözümlerine dönüştüren bir yazılım mühendisiyim. Mühendislik kalitesini kullanım kolaylığıyla birleştiren güvenilir ürünler geliştirmeye önem veriyor, daha verimli ve etkili çözümler üretmek için yapay zekâ teknolojilerinden yararlanıyorum.",
+      "letsTalk": "İletişime Geçelim",
+      "downloadCV": "Özgeçmişi İndir",
+      "downloadLabel": "Halim Shabalout'un özgeçmişini indir",
+      "githubLabel": "GitHub profilimi ziyaret et",
+      "linkedinLabel": "LinkedIn profilimi ziyaret et",
+      "emailLabel": "E-posta yoluyla iletişime geç",
+      "scrollLabel": "Hakkımda bölümüne git"
+    },
+    "About": {
+      "title": "Hakkımda",
+      "summary": "TypeScript, Next.js, React, Node.js ve NestJS kullanarak web çözümleri geliştirme konusunda 4 yılı aşkın deneyime sahip bir Full-Stack Yazılım Mühendisiyim. RESTful API geliştirme, backend sistemlerinin tasarımı ve ölçeklenebilir, sürdürülebilir modern uygulamaların oluşturulması konularında deneyim sahibiyim. Yapay zekâ teknolojilerini web uygulamalarına entegre etmeye ve iş ihtiyaçlarına yönelik pratik çözümler geliştirmeye odaklanıyorum.",
+      "description": "İyi yazılımın yalnızca çalışan kod yazmaktan ibaret olmadığına; güvenilir, sürdürülebilir ve kullanıcılara ve işletmelere gerçek değer sağlayan çözümler geliştirmeyi gerektirdiğine inanıyorum. Backend sistemlerinin tasarımından API mimarisine ve modern kullanıcı arayüzlerinin geliştirilmesine kadar yazılım geliştirmenin farklı alanlarında çalışmaktan keyif alıyorum. Becerilerimi sürekli geliştirmeyi ve özellikle yapay zekâ alanındaki yeni teknolojileri keşfetmeyi hedefliyorum.",
+      "education": {
+        "title": "Eğitim",
+        "school": "Fırat Üniversitesi — Elazığ, Türkiye",
+        "degree": "Yazılım Mühendisliği Lisans Derecesi",
+        "dates": "2018 – 2022"
+      },
+      "languages": {
+        "title": "Diller",
+        "items": [
+          {
+            "name": "Arapça",
+            "level": "Ana dil"
+          },
+          {
+            "name": "Türkçe",
+            "level": "İleri"
+          },
+          {
+            "name": "İngilizce",
+            "level": "Orta"
+          },
+          {
+            "name": "Almanca",
+            "level": "Başlangıç"
+          },
+          {
+            "name": "İspanyolca",
+            "level": "Başlangıç"
+          }
+        ]
+      }
+    },
+    "TechStack": {
+      "title": "Teknolojiler ve Araçlar",
+      "categories": {
+        "Frontend": "Frontend Geliştirme",
+        "Backend": "Backend Geliştirme",
+        "Database & ORM": "Veritabanları ve ORM Araçları",
+        "DevOps & Cloud": "DevOps ve Bulut Hizmetleri",
+        "Practices": "Yazılım Geliştirme Pratikleri ve Standartları",
+        "Other": "Diğer Teknolojiler ve Araçlar"
+      }
+    },
+    "Experience": {
+      "title": "Profesyonel Deneyim",
+      "projectsTitle": "İlgili Projeler",
+      "projectTypes": {
+        "product": "Ticari Ürün",
+        "personal": "Kişisel Proje",
+        "private": "Özel Proje"
+      },
+      "jobs": {
+        "freelance": {
+          "role": "Freelance Yazılım Geliştiricisi ve Özel Projeler",
+          "company": "Freelance",
+          "website": null,
+          "location": "Cidde, Suudi Arabistan",
+          "dates": "Eylül 2024 – Günümüz",
+          "projects": [],
+          "points": [
+            "Gereksinim analizinden teknik mimari tasarımına, geliştirme, test ve dağıtım süreçlerine kadar uçtan uca web uygulamaları tasarlamak ve geliştirmek.",
+            "Yazılım geliştirme iş akışlarını iyileştirmek, özellik geliştirme süreçlerini hızlandırmak, hata analizine ve teknik araştırmalara yardımcı olmak amacıyla yapay zekâ araçlarından, Büyük Dil Modellerinden (LLM) ve prompt mühendisliği tekniklerinden yararlanmak.",
+            "Backend geliştirme için NestJS, frontend geliştirme için Next.js kullanarak yapay zekâ destekli kişisel bir SaaS projesi olan Imaginov'u geliştirmek."
+          ]
+        },
+        "aarti": {
+          "role": "Yazılım Mühendisi",
+          "company": "Aarti Muhendislik",
+          "website": "https://aartimuhendislik.com/index-en.html",
+          "location": "Mersin, Türkiye",
+          "dates": "Ekim 2023 – Eylül 2024",
+          "projects": [
+            {
+              "name": "Intel 50001",
+              "description": "ISO 50001 standardına uygun bir enerji yönetim yazılımı. Kurumların enerji tüketimini izlemesine, verileri analiz etmesine, verimlilik iyileştirme fırsatlarını belirlemesine ve maliyetleri azaltmasına olanak tanır.",
+              "url": null,
+              "type": "private"
+            }
+          ],
+          "points": [
+            "Eczacıbaşı Topluluğu bünyesindeki Esan şirketi için Laravel kullanarak RESTful API'ler ve React.js ile Redux kullanarak etkileşimli kontrol panelleri geliştirerek bir enerji yönetim sistemi oluşturmak.",
+            "Docker kullanarak geliştirme ortamını yapılandırmak; ortam kurulumundan kaynaklanan sorunları azaltmaya ve yeni geliştiricilerin projeye daha hızlı adapte olmasına katkı sağlamak.",
+            "Endüstriyel enerji izleme sistemlerinin performansını ve enerji verilerinin güvenilirliğini artıran yeni özellikler tasarlamak ve uygulamak."
+          ]
+        },
+        "paracim": {
+          "role": "Yazılım Proje Yöneticisi",
+          "company": "Paracim",
+          "website": "https://paracim.com.tr/",
+          "location": "Konya, Türkiye",
+          "dates": "Mayıs 2023 – Eylül 2023",
+          "projects": [
+            {
+              "name": "Tahsilate",
+              "description": "Virtual POS dâhil olmak üzere elektronik ödeme tahsilatı ve çevrimiçi ödeme çözümleri sunan bir platform.",
+              "url": "https://tahsilate.com/",
+              "type": "product"
+            }
+          ],
+          "points": [
+            "Projenin yazılım geliştirme süreçlerine liderlik etmek ve Laravel ile Vue.js kullanarak Virtual POS platformunun sıfırdan yeniden geliştirilmesine katkıda bulunarak yeni sürümün yayına alınmasını sağlamak.",
+            "Ekip üyeleri arasında yazılım görevlerini organize etmek ve dağıtmak, uygulama süreçlerini takip etmek ve teknik gereksinimler ile geliştirme aşaları konusunda koordinasyon sağlamak.",
+            "API geliştirme ve ödeme hizmetleriyle entegrasyon süreçlerine katılmak; sistemin kararlılığını sağlamak amacıyla test ve hata giderme çalışmalarını yürütmek."
+          ]
+        },
+        "logicalDefense": {
+          "role": "Full-Stack Developer",
+          "company": "Logical Defense",
+          "website": "https://www.logdef.com/",
+          "location": "Elazığ, Türkiye",
+          "dates": "Nisan 2022 – Nisan 2023",
+          "projects": [],
+          "points": [
+            "Derslerin, sınavların ve ödevlerin yönetilmesini sağlayan kapsamlı bir çevrimiçi eğitim platformunu backend tarafında Laravel 8, frontend tarafında Angular 14 kullanarak tasarlamak ve geliştirmek.",
+            "İçeriğin gerçek zamanlı sunulmasını ve kullanıcı ilerlemesinin takip edilmesini destekleyen RESTful API'ler tasarlamak ve dokümante etmek.",
+            "WordPress kullanarak müşteriler için web sitesi projeleri geliştirmek, özel temalar oluşturmak ve gerekli eklentileri entegre etmek."
+          ]
+        }
+      }
+    },
+    "Projects": {
+      "title": "Öne Çıkan Projeler",
+      "viewProject": "{name} projesini görüntüle",
+      "statuses": {
+        "live": "Yayında",
+        "activeDevelopment": "Geliştirme Aşamasında",
+        "private": "Özel"
+      },
+      "items": {
+        "jeddahMarble": {
+          "name": "Jeddah Marble",
+          "href": "https://jeddahmarble.com/",
+          "description": "Mermer tedarikinde uzmanlaşmış bir şirket için Next.js, NestJS, PostgreSQL ve Prisma kullanılarak geliştirilen kapsamlı bir dijital platform. Özel bir içerik ve ürün yönetim sistemi, duyarlı arayüzler ve müşteri taleplerinin kolayca alınmasını sağlayan iletişim entegrasyonları içerir.",
+          "tags": [
+            "Next.js",
+            "NestJS",
+            "PostgreSQL",
+            "Prisma"
+          ]
+        },
+        "etimadPoint": {
+          "name": "Etimad Point",
+          "href": "https://etimadpoint.cloud/ar",
+          "description": "Next.js, NestJS ve MySQL kullanılarak tasarlanıp geliştirilen kapsamlı bir iş platformu. Dijital içerik ve ticari iş süreçlerini desteklemek amacıyla duyarlı kullanıcı arayüzleri, RESTful API'ler ve ölçeklenebilir bir backend mimarisi sunar.",
+          "tags": [
+            "Next.js",
+            "NestJS",
+            "MySQL",
+            "REST API",
+            "Arapça / İngilizce"
+          ]
+        },
+        "makkahOrthodontist": {
+          "name": "Makkah Orthodontist",
+          "href": "https://makkahorthodontist.com/ar",
+          "description": "Ortodonti alanında uzmanlaşmış bir merkez için Next.js kullanılarak geliştirilen, Arapça ve İngilizce dil desteğine sahip bir web sitesi. Hizmet ve doktor tanıtım sayfaları, görsel içerik sunumu, arama motoru optimizasyonu (SEO) ve performans iyileştirmeleri sayesinde hastaların bilgi ve hizmetlere kolayca ulaşmasını sağlar.",
+          "tags": [
+            "Next.js",
+            "Responsive Tasarım",
+            "SEO",
+            "Arapça / İngilizce"
+          ]
+        },
+        "bonianAlfakhamah": {
+          "name": "Bonian Al Fakhama",
+          "href": "https://bonianalfakhamah.com/",
+          "description": "İnşaat ve gayrimenkul sektöründe faaliyet gösteren bir şirket için tasarım, geliştirme ve içerik yönetim sistemi entegrasyonunu kapsayan kapsamlı bir web sitesi.",
+          "tags": [
+            "WordPress",
+            "Full-Stack"
+          ]
+        },
+        "pixelForge": {
+          "name": "PixelForge",
+          "href": "https://pixelforge-eta-gray.vercel.app/",
+          "description": "Next.js kullanılarak geliştirilen, doğrudan tarayıcı üzerinden çalışan açık kaynaklı bir görsel düzenleyici. HTML Canvas API aracılığıyla istemci tarafında yüksek verimlilikle görsel işleme üzerine odaklanır; düzenleme özellikleri ve kullanıcı deneyimi sürekli geliştirilmektedir.",
+          "tags": [
+            "Next.js",
+            "Canvas API",
+            "Açık Kaynak"
+          ]
+        },
+        "imaginov": {
+          "name": "Imaginov",
+          "description": "Next.js ve NestJS kullanılarak bağımsız olarak tasarlanıp geliştirilen, yapay zekâ destekli bir SaaS platformu. Yapay zekâ teknolojilerinin entegrasyonuna, ölçeklenebilir yazılım mimarisine ve geliştiriciler için modern iş araçlarının oluşturulmasına odaklanır. Proje özeldir ve geliştirme aşamasındadır.",
+          "tags": [
+            "Next.js",
+            "NestJS",
+            "Yapay Zekâ Entegrasyonu"
+          ]
+        }
+      }
+    },
+    "Achievements": {
+      "title": "Başarılar",
+      "items": {
+        "item1": "Eğitim, enerji yönetimi ve ödeme sistemleri alanlarında web uygulamalarının geliştirilmesine ve yayına alınmasına katkıda bulunmak.",
+        "item2": "Next.js, NestJS, React ve Laravel kullanarak frontend ve backend bileşenlerini kapsayan uçtan uca web uygulamaları geliştirmek.",
+        "item3": "Suudi Arabistan ve Türkiye'deki müşteriler ve şirketlerle iş birliği yaparak dijital projeler gerçekleştirmek.",
+        "item4": "Gereksinim analizinden çözüm tasarımına, geliştirme, test ve dağıtım süreçlerine kadar yazılım geliştirmenin farklı aşamalarında yer almak.",
+        "item5": "Yapay zekâ teknolojilerini keşfetmek ve Büyük Dil Modellerini (LLM) web uygulamalarına entegre etmek."
+      }
+    },
+    "Contact": {
+      "label": "İletişim",
+      "title": "Birlikte",
+      "highlight": "Harika Bir Şey İnşa Edelim",
+      "description": "Yazılım mühendisliği alanındaki iş fırsatlarına ve dijital projelerde freelance iş birliklerine açığım. Ekibinize katılacak bir yazılım mühendisi arıyorsanız veya projenizi geliştirmek istiyorsanız benimle iletişime geçebilirsiniz.",
+      "emailLabel": "{email} adresine e-posta gönder",
+      "githubLabel": "Halim Shabalout'un GitHub profilini ziyaret et",
+      "linkedinLabel": "Halim Shabalout'un LinkedIn profilini ziyaret et",
+      "location": "Cidde, Suudi Arabistan"
+    },
+    "Footer": {
+      "name": "Halim Shabalout",
+      "copyright": "Tüm hakları saklıdır.",
+      "builtWith": "Next.js ve Tailwind CSS ile geliştirilmiştir."
+    }
+  },
+  "de": {
+    "Navbar": {
+      "about": "Über mich",
+      "stack": "Technologien",
+      "experience": "Berufserfahrung",
+      "projects": "Projekte",
+      "achievements": "Erfolge",
+      "contact": "Kontakt",
+      "resume": "Lebenslauf",
+      "toggleMenu": "Menü öffnen",
+      "brandName": "Halim Shabalout"
+    },
+    "Hero": {
+      "name": "Halim Shabalout",
+      "title": "Softwareentwickler",
+      "subtitle": "Full-Stack Developer",
+      "status": "Offen für berufliche Möglichkeiten",
+      "yearsOfExperience": "4+ Jahre",
+      "location": "Dschidda, Saudi-Arabien",
+      "heroBio": "Ich bin Softwareentwickler und beschäftige mich mit dem Entwurf und der Entwicklung von Webanwendungen und integrierten Systemen. Dabei verwandle ich geschäftliche Anforderungen in praktische und skalierbare Softwarelösungen. Mein Fokus liegt auf der Entwicklung zuverlässiger Produkte, die technische Qualität mit Benutzerfreundlichkeit verbinden. Zudem nutze ich KI-Technologien, um effizientere und wirkungsvollere Lösungen zu entwickeln.",
+      "letsTalk": "Kontakt aufnehmen",
+      "downloadCV": "Lebenslauf herunterladen",
+      "downloadLabel": "Lebenslauf von Halim Shabalout herunterladen",
+      "githubLabel": "Mein GitHub-Profil besuchen",
+      "linkedinLabel": "Mein LinkedIn-Profil besuchen",
+      "emailLabel": "Per E-Mail kontaktieren",
+      "scrollLabel": "Zum Abschnitt Über mich navigieren"
+    },
+    "About": {
+      "title": "Über mich",
+      "summary": "Full-Stack-Softwareentwickler mit über 4 Jahren Erfahrung in der Entwicklung von Weblösungen mit TypeScript, Next.js, React, Node.js und NestJS. Ich verfüge über Erfahrung in der Entwicklung von RESTful APIs, im Entwurf von Backend-Systemen sowie in der Erstellung moderner, skalierbarer und wartbarer Anwendungen. Mein besonderes Interesse gilt der Integration von KI-Technologien in Webanwendungen und der Entwicklung praxisorientierter Lösungen, die geschäftliche Anforderungen erfüllen.",
+      "description": "Ich bin davon überzeugt, dass gute Software mehr bedeutet als nur funktionierenden Code zu schreiben. Sie erfordert die Entwicklung zuverlässiger und wartbarer Lösungen, die einen echten Mehrwert für Nutzer und Unternehmen schaffen. Ich arbeite gerne in verschiedenen Bereichen der Softwareentwicklung – vom Entwurf von Backend-Systemen und der API-Architektur bis hin zur Entwicklung moderner Benutzeroberflächen. Dabei strebe ich danach, meine Fähigkeiten kontinuierlich weiterzuentwickeln und neue Technologien zu erkunden, insbesondere im Bereich der künstlichen Intelligenz.",
+      "education": {
+        "title": "Ausbildung",
+        "school": "Fırat-Universität — Elazığ, Türkei",
+        "degree": "Bachelor of Science in Software Engineering",
+        "dates": "2018 – 2022"
+      },
+      "languages": {
+        "title": "Sprachen",
+        "items": [
+          {
+            "name": "Arabisch",
+            "level": "Muttersprache"
+          },
+          {
+            "name": "Türkisch",
+            "level": "Fortgeschritten"
+          },
+          {
+            "name": "Englisch",
+            "level": "Mittelstufe"
+          },
+          {
+            "name": "Deutsch",
+            "level": "Anfänger"
+          },
+          {
+            "name": "Spanisch",
+            "level": "Anfänger"
+          }
+        ]
+      }
+    },
+    "TechStack": {
+      "title": "Technologien und Tools",
+      "categories": {
+        "Frontend": "Frontend-Entwicklung",
+        "Backend": "Backend-Entwicklung",
+        "Database & ORM": "Datenbanken und ORM-Tools",
+        "DevOps & Cloud": "DevOps und Cloud-Dienste",
+        "Practices": "Softwareentwicklungspraktiken und Standards",
+        "Other": "Weitere Technologien und Tools"
+      }
+    },
+    "Experience": {
+      "title": "Berufserfahrung",
+      "projectsTitle": "Zugehörige Projekte",
+      "projectTypes": {
+        "product": "Kommerzielles Produkt",
+        "personal": "Persönliches Projekt",
+        "private": "Vertrauliches Projekt"
+      },
+      "jobs": {
+        "freelance": {
+          "role": "Freiberuflicher Softwareentwickler und individuelle Projekte",
+          "company": "Freiberuflich",
+          "website": null,
+          "location": "Dschidda, Saudi-Arabien",
+          "dates": "September 2024 – Heute",
+          "projects": [],
+          "points": [
+            "Konzeption und Entwicklung ganzheitlicher Webanwendungen – von der Anforderungsanalyse und dem Entwurf der technischen Architektur bis hin zu Entwicklung, Tests und Deployment.",
+            "Einsatz von KI-Tools, Large Language Models (LLMs) und Prompt Engineering zur Optimierung von Softwareentwicklungsprozessen, Beschleunigung der Feature-Entwicklung sowie Unterstützung bei Fehleranalysen und technischer Recherche.",
+            "Entwicklung von Imaginov, einem persönlichen KI-gestützten SaaS-Projekt, mit NestJS für das Backend und Next.js für das Frontend."
+          ]
+        },
+        "aarti": {
+          "role": "Softwareentwickler",
+          "company": "Aarti Muhendislik",
+          "website": "https://aartimuhendislik.com/index-en.html",
+          "location": "Mersin, Türkei",
+          "dates": "Oktober 2023 – September 2024",
+          "projects": [
+            {
+              "name": "Intel 50001",
+              "description": "Ein Software-System für das Energiemanagement gemäß ISO 50001, mit dem Unternehmen ihren Energieverbrauch überwachen, Daten analysieren, Potenziale zur Effizienzsteigerung identifizieren und Kosten reduzieren können.",
+              "url": null,
+              "type": "private"
+            }
+          ],
+          "points": [
+            "Entwicklung eines Energiemanagementsystems für Esan, ein Unternehmen der Eczacıbaşı-Gruppe, durch die Implementierung von RESTful APIs mit Laravel sowie interaktiven Dashboards mit React.js und Redux.",
+            "Einrichtung der Entwicklungsumgebung mit Docker, wodurch Probleme bei der Umgebungskonfiguration reduziert und die Einarbeitung neuer Entwickler beschleunigt wurden.",
+            "Konzeption und Implementierung neuer Funktionen zur Verbesserung der Leistung von Überwachungssystemen und der Zuverlässigkeit industrieller Energiedaten."
+          ]
+        },
+        "paracim": {
+          "role": "Software-Projektmanager",
+          "company": "Paracim",
+          "website": "https://paracim.com.tr/",
+          "location": "Konya, Türkei",
+          "dates": "Mai 2023 – September 2023",
+          "projects": [
+            {
+              "name": "Tahsilate",
+              "description": "Eine Plattform für den elektronischen Zahlungseinzug und Online-Zahlungslösungen, einschließlich Virtual POS.",
+              "url": "https://tahsilate.com/",
+              "type": "product"
+            }
+          ],
+          "points": [
+            "Übernahme der Verantwortung für die Softwareentwicklung des Projekts und Mitwirkung am vollständigen Neuaufbau der Virtual-POS-Plattform mit Laravel und Vue.js bis zur Veröffentlichung der neuen Version.",
+            "Organisation und Verteilung von Entwicklungsaufgaben innerhalb des Teams, Überwachung der Umsetzung sowie Abstimmung technischer Anforderungen und Entwicklungsphasen.",
+            "Mitwirkung an der Entwicklung von APIs und deren Anbindung an Zahlungsdienste sowie Unterstützung bei Tests und Fehlerbehebung zur Sicherstellung der Systemstabilität."
+          ]
+        },
+        "logicalDefense": {
+          "role": "Full-Stack-Entwickler",
+          "company": "Logical Defense",
+          "website": "https://www.logdef.com/",
+          "location": "Elazığ, Türkei",
+          "dates": "April 2022 – April 2023",
+          "projects": [],
+          "points": [
+            "Konzeption und Entwicklung einer umfassenden Online-Lernplattform zur Verwaltung von Unterrichtseinheiten, Prüfungen und Aufgaben mit Laravel 8 im Backend und Angular 14 im Frontend.",
+            "Entwurf und Dokumentation von RESTful APIs zur Unterstützung der Echtzeit-Bereitstellung von Inhalten und zur Nachverfolgung des Lernfortschritts der Nutzer.",
+            "Entwicklung von Kundenwebsites mit WordPress, einschließlich der Erstellung individueller Themes und der Integration erforderlicher Plugins."
+          ]
+        }
+      }
+    },
+    "Projects": {
+      "title": "Ausgewählte Projekte",
+      "viewProject": "Projekt {name} ansehen",
+      "statuses": {
+        "live": "Online",
+        "activeDevelopment": "In Entwicklung",
+        "private": "Privat"
+      },
+      "items": {
+        "jeddahMarble": {
+          "name": "Jeddah Marble",
+          "href": "https://jeddahmarble.com/",
+          "description": "Eine umfassende digitale Plattform für ein auf Marmorlieferungen spezialisiertes Unternehmen, entwickelt mit Next.js, NestJS, PostgreSQL und Prisma. Sie umfasst ein maßgeschneidertes Content- und Produktmanagementsystem, responsive Benutzeroberflächen sowie Kommunikationsintegrationen zur einfachen Bearbeitung von Kundenanfragen.",
+          "tags": [
+            "Next.js",
+            "NestJS",
+            "PostgreSQL",
+            "Prisma"
+          ]
+        },
+        "etimadPoint": {
+          "name": "Etimad Point",
+          "href": "https://etimadpoint.cloud/ar",
+          "description": "Eine umfassende Business-Plattform, konzipiert und entwickelt mit Next.js, NestJS und MySQL. Sie bietet responsive Benutzeroberflächen, RESTful APIs und eine skalierbare Backend-Architektur zur Unterstützung digitaler Inhalte und geschäftlicher Prozesse.",
+          "tags": [
+            "Next.js",
+            "NestJS",
+            "MySQL",
+            "REST API",
+            "Arabisch / Englisch"
+          ]
+        },
+        "makkahOrthodontist": {
+          "name": "Makkah Orthodontist",
+          "href": "https://makkahorthodontist.com/ar",
+          "description": "Eine Website für ein auf Kieferorthopädie spezialisiertes Zentrum, entwickelt mit Next.js und Unterstützung für Arabisch und Englisch. Sie umfasst Informationsseiten zu Leistungen und Ärzten, die Präsentation visueller Inhalte sowie Suchmaschinenoptimierung (SEO) und Performance-Optimierungen, damit Patienten leichter auf Informationen und Dienstleistungen zugreifen können.",
+          "tags": [
+            "Next.js",
+            "Responsive Design",
+            "SEO",
+            "Arabisch / Englisch"
+          ]
+        },
+        "bonianAlfakhamah": {
+          "name": "Bonian Al Fakhama",
+          "href": "https://bonianalfakhamah.com/",
+          "description": "Eine umfassende Website für ein Unternehmen aus der Bau- und Immobilienbranche, einschließlich Webdesign, Entwicklung und Integration eines Content-Management-Systems.",
+          "tags": [
+            "WordPress",
+            "Full-Stack"
+          ]
+        },
+        "pixelForge": {
+          "name": "PixelForge",
+          "href": "https://pixelforge-eta-gray.vercel.app/",
+          "description": "Ein Open-Source-Bildeditor, der direkt im Browser ausgeführt wird und mit Next.js entwickelt wurde. Der Schwerpunkt liegt auf einer effizienten clientseitigen Bildverarbeitung mithilfe der HTML Canvas API. Die Bearbeitungsfunktionen und die Benutzererfahrung werden kontinuierlich weiterentwickelt und verbessert.",
+          "tags": [
+            "Next.js",
+            "Canvas API",
+            "Open Source"
+          ]
+        },
+        "imaginov": {
+          "name": "Imaginov",
+          "description": "Eine KI-gestützte SaaS-Plattform, die eigenständig mit Next.js und NestJS konzipiert und entwickelt wird. Der Fokus liegt auf der Integration von KI-Technologien, einer skalierbaren Softwarearchitektur und der Entwicklung moderner Arbeitstools für Entwickler. Das Projekt ist privat und befindet sich noch in der Entwicklung.",
+          "tags": [
+            "Next.js",
+            "NestJS",
+            "KI-Integration"
+          ]
+        }
+      }
+    },
+    "Achievements": {
+      "title": "Erfolge",
+      "items": {
+        "item1": "Mitwirkung an der Entwicklung und Veröffentlichung von Webanwendungen in den Bereichen Bildung, Energiemanagement und Zahlungssysteme.",
+        "item2": "Entwicklung ganzheitlicher Webanwendungen mit Frontend- und Backend-Komponenten unter Verwendung von Next.js, NestJS, React und Laravel.",
+        "item3": "Umsetzung digitaler Projekte und Zusammenarbeit mit Kunden und Unternehmen in Saudi-Arabien und der Türkei.",
+        "item4": "Mitwirkung an verschiedenen Phasen der Softwareentwicklung – von der Anforderungsanalyse und Lösungsplanung bis hin zu Entwicklung, Tests und Deployment.",
+        "item5": "Erkundung und Anwendung von KI-Technologien sowie Integration von Large Language Models (LLMs) in Webanwendungen."
+      }
+    },
+    "Contact": {
+      "label": "Kontakt",
+      "title": "Lass uns etwas",
+      "highlight": "Großartiges gemeinsam schaffen",
+      "description": "Ich bin offen für berufliche Möglichkeiten im Bereich Softwareentwicklung sowie für freiberufliche Kooperationen an digitalen Projekten. Wenn Sie einen Softwareentwickler für Ihr Team suchen oder Ihr Projekt weiterentwickeln möchten, freue ich mich auf Ihre Nachricht.",
+      "emailLabel": "E-Mail an {email} senden",
+      "githubLabel": "Das GitHub-Profil von Halim Shabalout besuchen",
+      "linkedinLabel": "Das LinkedIn-Profil von Halim Shabalout besuchen",
+      "location": "Dschidda, Saudi-Arabien"
+    },
+    "Footer": {
+      "name": "Halim Shabalout",
+      "copyright": "Alle Rechte vorbehalten.",
+      "builtWith": "Entwickelt mit Next.js und Tailwind CSS"
+    }
+  },
+  "es": {
+    "Navbar": {
+      "about": "Sobre mí",
+      "stack": "Tecnologías",
+      "experience": "Experiencia",
+      "projects": "Proyectos",
+      "achievements": "Logros",
+      "contact": "Contacto",
+      "resume": "Currículum",
+      "toggleMenu": "Abrir menú",
+      "brandName": "Halim Shabalout"
+    },
+    "Hero": {
+      "name": "Halim Shabalout",
+      "title": "Ingeniero de Software",
+      "subtitle": "Full-Stack Developer",
+      "status": "Abierto a oportunidades profesionales",
+      "yearsOfExperience": "4+ años",
+      "location": "Yeda, Arabia Saudita",
+      "heroBio": "Soy ingeniero de software y me dedico al diseño y desarrollo de aplicaciones web y sistemas integrados, transformando las necesidades empresariales en soluciones de software prácticas y escalables. Me enfoco en crear productos fiables que combinan calidad de ingeniería y facilidad de uso, aprovechando las tecnologías de inteligencia artificial para desarrollar soluciones más eficientes y eficaces.",
+      "letsTalk": "Hablemos",
+      "downloadCV": "Descargar currículum",
+      "downloadLabel": "Descargar el currículum de Halim Shabalout",
+      "githubLabel": "Visitar mi perfil de GitHub",
+      "linkedinLabel": "Visitar mi perfil de LinkedIn",
+      "emailLabel": "Contactarme por correo electrónico",
+      "scrollLabel": "Ir a la sección Sobre mí"
+    },
+    "About": {
+      "title": "Sobre mí",
+      "summary": "Ingeniero de software Full-Stack con más de 4 años de experiencia en el desarrollo de soluciones web utilizando TypeScript, Next.js, React, Node.js y NestJS. Cuento con experiencia en el desarrollo de RESTful APIs, el diseño de sistemas backend y la creación de aplicaciones modernas, escalables y fáciles de mantener. Me interesa integrar tecnologías de inteligencia artificial en aplicaciones web y desarrollar soluciones prácticas que respondan a las necesidades empresariales.",
+      "description": "Creo que un buen software no consiste únicamente en escribir código funcional, sino en desarrollar soluciones fiables, mantenibles y capaces de aportar un valor real a los usuarios y a las empresas. Disfruto trabajando en diferentes áreas del desarrollo de software, desde el diseño de sistemas backend y la arquitectura de APIs hasta la creación de interfaces de usuario modernas. Busco mejorar continuamente mis habilidades y explorar nuevas tecnologías, especialmente en el campo de la inteligencia artificial.",
+      "education": {
+        "title": "Formación académica",
+        "school": "Universidad de Fırat — Elazığ, Turquía",
+        "degree": "Grado en Ingeniería de Software",
+        "dates": "2018 – 2022"
+      },
+      "languages": {
+        "title": "Idiomas",
+        "items": [
+          {
+            "name": "Árabe",
+            "level": "Nativo"
+          },
+          {
+            "name": "Turco",
+            "level": "Avanzado"
+          },
+          {
+            "name": "Inglés",
+            "level": "Intermedio"
+          },
+          {
+            "name": "Alemán",
+            "level": "Principiante"
+          },
+          {
+            "name": "Español",
+            "level": "Principiante"
+          }
+        ]
+      }
+    },
+    "TechStack": {
+      "title": "Tecnologías y herramientas",
+      "categories": {
+        "Frontend": "Desarrollo Frontend",
+        "Backend": "Desarrollo Backend",
+        "Database & ORM": "Bases de datos y herramientas ORM",
+        "DevOps & Cloud": "DevOps y servicios en la nube",
+        "Practices": "Prácticas y estándares de desarrollo de software",
+        "Other": "Otras tecnologías y herramientas"
+      }
+    },
+    "Experience": {
+      "title": "Experiencia profesional",
+      "projectsTitle": "Proyectos relacionados",
+      "projectTypes": {
+        "product": "Producto comercial",
+        "personal": "Proyecto personal",
+        "private": "Proyecto privado"
+      },
+      "jobs": {
+        "freelance": {
+          "role": "Desarrollador de software freelance y proyectos privados",
+          "company": "Freelance",
+          "website": null,
+          "location": "Yeda, Arabia Saudita",
+          "dates": "Septiembre de 2024 – Actualidad",
+          "projects": [],
+          "points": [
+            "Diseño y desarrollo de aplicaciones web completas, desde el análisis de requisitos y el diseño de la arquitectura técnica hasta el desarrollo, las pruebas y el despliegue.",
+            "Uso de herramientas de inteligencia artificial, modelos de lenguaje de gran tamaño (LLMs) e ingeniería de prompts para optimizar los flujos de trabajo de desarrollo, acelerar la implementación de funcionalidades y facilitar el análisis de errores y la investigación técnica.",
+            "Desarrollo de Imaginov, un proyecto SaaS personal basado en inteligencia artificial, utilizando NestJS para el backend y Next.js para el frontend."
+          ]
+        },
+        "aarti": {
+          "role": "Ingeniero de Software",
+          "company": "Aarti Muhendislik",
+          "website": "https://aartimuhendislik.com/index-en.html",
+          "location": "Mersin, Turquía",
+          "dates": "Octubre de 2023 – Septiembre de 2024",
+          "projects": [
+            {
+              "name": "Intel 50001",
+              "description": "Sistema de software para la gestión energética conforme a la norma ISO 50001, que permite a las organizaciones supervisar el consumo energético, analizar datos, identificar oportunidades de mejora de la eficiencia y reducir costes.",
+              "url": null,
+              "type": "private"
+            }
+          ],
+          "points": [
+            "Desarrollo de un sistema de gestión energética para Esan, empresa perteneciente al grupo Eczacıbaşı, mediante la creación de RESTful APIs con Laravel y paneles de control interactivos con React.js y Redux.",
+            "Configuración del entorno de desarrollo utilizando Docker, contribuyendo a reducir los problemas relacionados con la configuración de entornos y a agilizar la incorporación de nuevos desarrolladores al proyecto.",
+            "Diseño e implementación de nuevas funcionalidades que mejoraron el rendimiento de los sistemas de monitorización y la fiabilidad de los datos energéticos industriales."
+          ]
+        },
+        "paracim": {
+          "role": "Gerente de proyectos de software",
+          "company": "Paracim",
+          "website": "https://paracim.com.tr/",
+          "location": "Konya, Turquía",
+          "dates": "Mayo de 2023 – Septiembre de 2023",
+          "projects": [
+            {
+              "name": "Tahsilate",
+              "description": "Plataforma de recaudación de pagos electrónicos y soluciones de pago en línea, incluyendo Virtual POS.",
+              "url": "https://tahsilate.com/",
+              "type": "product"
+            }
+          ],
+          "points": [
+            "Asunción de la responsabilidad del desarrollo de software del proyecto y participación en la reconstrucción completa de la plataforma Virtual POS desde cero utilizando Laravel y Vue.js, hasta el lanzamiento de la nueva versión.",
+            "Organización y distribución de tareas de desarrollo entre los miembros del equipo, seguimiento de su ejecución y coordinación de los requisitos técnicos y las distintas fases del proyecto.",
+            "Participación en el desarrollo de APIs y su integración con servicios de pago, así como en las pruebas y la resolución de problemas para garantizar la estabilidad del sistema."
+          ]
+        },
+        "logicalDefense": {
+          "role": "Desarrollador Full-Stack",
+          "company": "Logical Defense",
+          "website": "https://www.logdef.com/",
+          "location": "Elazığ, Turquía",
+          "dates": "Abril de 2022 – Abril de 2023",
+          "projects": [],
+          "points": [
+            "Diseño y desarrollo de una plataforma educativa en línea integral para gestionar clases, exámenes y tareas, utilizando Laravel 8 en el backend y Angular 14 en el frontend.",
+            "Diseño y documentación de RESTful APIs para facilitar la entrega de contenidos en tiempo real y el seguimiento del progreso de los usuarios.",
+            "Desarrollo de sitios web para clientes utilizando WordPress, incluyendo la creación de temas personalizados y la integración de los complementos necesarios."
+          ]
+        }
+      }
+    },
+    "Projects": {
+      "title": "Proyectos destacados",
+      "viewProject": "Ver proyecto {name}",
+      "statuses": {
+        "live": "En línea",
+        "activeDevelopment": "En desarrollo",
+        "private": "Privado"
+      },
+      "items": {
+        "jeddahMarble": {
+          "name": "Jeddah Marble",
+          "href": "https://jeddahmarble.com/",
+          "description": "Plataforma digital integral para una empresa especializada en el suministro de mármol, desarrollada con Next.js, NestJS, PostgreSQL y Prisma. Incluye un sistema personalizado de gestión de contenidos y productos, interfaces adaptables e integración de servicios de comunicación para facilitar la recepción de consultas de clientes.",
+          "tags": [
+            "Next.js",
+            "NestJS",
+            "PostgreSQL",
+            "Prisma"
+          ]
+        },
+        "etimadPoint": {
+          "name": "Etimad Point",
+          "href": "https://etimadpoint.cloud/ar",
+          "description": "Plataforma empresarial integral diseñada y desarrollada con Next.js, NestJS y MySQL. Incluye interfaces de usuario adaptables, RESTful APIs y una arquitectura backend escalable para dar soporte a contenidos digitales y procesos empresariales.",
+          "tags": [
+            "Next.js",
+            "NestJS",
+            "MySQL",
+            "REST API",
+            "Árabe / Inglés"
+          ]
+        },
+        "makkahOrthodontist": {
+          "name": "Makkah Orthodontist",
+          "href": "https://makkahorthodontist.com/ar",
+          "description": "Sitio web para un centro especializado en ortodoncia, desarrollado con Next.js y compatible con árabe e inglés. Incluye páginas informativas sobre servicios y profesionales, presentación de contenido multimedia, optimización para motores de búsqueda (SEO) y mejoras de rendimiento para facilitar el acceso de los pacientes a la información y los servicios.",
+          "tags": [
+            "Next.js",
+            "Diseño adaptable",
+            "SEO",
+            "Árabe / Inglés"
+          ]
+        },
+        "bonianAlfakhamah": {
+          "name": "Bonian Al Fakhama",
+          "href": "https://bonianalfakhamah.com/",
+          "description": "Sitio web integral para una empresa del sector de la construcción y el inmobiliario, que incluyó el diseño y desarrollo del sitio web y la integración de un sistema de gestión de contenidos.",
+          "tags": [
+            "WordPress",
+            "Full-Stack"
+          ]
+        },
+        "pixelForge": {
+          "name": "PixelForge",
+          "href": "https://pixelforge-eta-gray.vercel.app/",
+          "description": "Editor de imágenes de código abierto que funciona directamente en el navegador, desarrollado con Next.js. Se centra en el procesamiento eficiente de imágenes del lado del cliente mediante la API HTML Canvas, con mejoras continuas en las funcionalidades de edición y la experiencia de usuario.",
+          "tags": [
+            "Next.js",
+            "Canvas API",
+            "Código abierto"
+          ]
+        },
+        "imaginov": {
+          "name": "Imaginov",
+          "description": "Plataforma SaaS basada en inteligencia artificial, diseñada y desarrollada de forma independiente utilizando Next.js y NestJS. Se centra en la integración de tecnologías de inteligencia artificial, una arquitectura de software escalable y el desarrollo de herramientas de trabajo modernas para desarrolladores. El proyecto es privado y continúa en fase de desarrollo.",
+          "tags": [
+            "Next.js",
+            "NestJS",
+            "Integración de IA"
+          ]
+        }
+      }
+    },
+    "Achievements": {
+      "title": "Logros",
+      "items": {
+        "item1": "Contribución al desarrollo y lanzamiento de aplicaciones web en los sectores de la educación, la gestión energética y los sistemas de pago.",
+        "item2": "Desarrollo de aplicaciones web completas que abarcan frontend y backend utilizando Next.js, NestJS, React y Laravel.",
+        "item3": "Ejecución de proyectos digitales y colaboración con clientes y empresas en Arabia Saudita y Turquía.",
+        "item4": "Participación en distintas etapas del desarrollo de software, desde el análisis de requisitos y el diseño de soluciones hasta el desarrollo, las pruebas y el despliegue.",
+        "item5": "Exploración y aplicación de tecnologías de inteligencia artificial e integración de modelos de lenguaje de gran tamaño (LLMs) en aplicaciones web."
+      }
+    },
+    "Contact": {
+      "label": "Contacto",
+      "title": "Construyamos algo",
+      "highlight": "increíble juntos",
+      "description": "Estoy abierto a oportunidades profesionales en el ámbito de la ingeniería de software y a colaboraciones freelance en proyectos digitales. Si buscas un ingeniero de software para incorporarlo a tu equipo o deseas desarrollar tu proyecto, estaré encantado de ponerme en contacto contigo.",
+      "emailLabel": "Enviar un correo electrónico a {email}",
+      "githubLabel": "Visitar el perfil de GitHub de Halim Shabalout",
+      "linkedinLabel": "Visitar el perfil de LinkedIn de Halim Shabalout",
+      "location": "Yeda, Arabia Saudita"
+    },
+    "Footer": {
+      "name": "Halim Shabalout",
+      "copyright": "Todos los derechos reservados.",
+      "builtWith": "Desarrollado con Next.js y Tailwind CSS"
+    }
+  }
+}
